@@ -68,10 +68,11 @@ button{
            z-index:5;
      }
      ul li{
-         padding:25px;
+         padding:10px;
          color:white;
          text-align:center;
          width:100%;
+        
      }
      .mobile-menu-icon{
           position: absolute;
