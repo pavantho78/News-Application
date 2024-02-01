@@ -79,7 +79,7 @@ const News=(props)=>{
                         <div className='row'>
                             {articles.map((element,index) => {
                                 return (
-                                    <div className='col-md-3' key={index}  >
+                                    <div className='col-md-3' key={element.url}  >
                                         <NewsItems title={element.title ? element.title.slice(0, 51) : ""} description={element.description ? element.description.slice(0, 92) : ""} imageUrl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
                                     </div>
                                 )
